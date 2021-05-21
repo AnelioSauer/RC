@@ -20,6 +20,7 @@ public class Estado implements Serializable{
 	@ManyToOne
 	private Pais pais;
 
+	
 	public Estado() {
 		super();
 	}
