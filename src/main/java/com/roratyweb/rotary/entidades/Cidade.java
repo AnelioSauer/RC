@@ -20,6 +20,7 @@ public class Cidade implements Serializable{
 	@ManyToOne
 	private Estado estado;
 
+
 	public Cidade() {
 		super();
 	}
