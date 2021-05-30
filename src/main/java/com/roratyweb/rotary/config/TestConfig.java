@@ -56,10 +56,10 @@ public class TestConfig implements CommandLineRunner{
 		// Salva os registros no banco de dados
 		estadoRepositorio.saveAll(Arrays.asList(e1, e2, e3));
 
-		Cidade c1 = new Cidade(98280000, "Panambi", e1);
-		Cidade c2 = new Cidade(98300000, "Palmeira das Missões", e1);
-		Cidade c3 = new Cidade(98700000, "Ijuí", e1);
-		Cidade c4 = new Cidade(98005000, "Cruz Alta", e2);
+		Cidade c1 = new Cidade(98280, "Panambi", e1);
+		Cidade c2 = new Cidade(98300, "Palmeira das Missões", e1);
+		Cidade c3 = new Cidade(98700, "Ijuí", e1);
+		Cidade c4 = new Cidade(98005, "Cruz Alta", e2);
 		
 		// Salva os registros no banco de dados
 		cidadeRepositorio.saveAll(Arrays.asList(c1, c2, c3, c4));
